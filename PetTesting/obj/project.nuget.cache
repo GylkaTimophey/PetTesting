@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LRx+nYAE/THl0i46fz5d14OTceoYhCXxpqormxQiWHKFR75DMI9MWUeswmtH/iY188GcCrOZJOYd2eo7UKtUtw==",
+  "dgSpecHash": "sVsXucG+imv6X46TxFFudydOf81rmbRss43H6SJ8pIr9MNpWNKGV7BvMBcqVYte+XEQWTEX6h1fmWRQdbiFUdQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\teamw\\source\\repos\\PetTesting\\PetTesting\\PetTesting.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\teamw\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512"
+  ],
   "logs": []
 }

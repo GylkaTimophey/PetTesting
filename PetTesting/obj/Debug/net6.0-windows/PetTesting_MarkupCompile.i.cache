@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\teamw\source\repos\PetTesting\PetTesting\App.xaml
-11407045341
+268494440
 
-5-747471733
-194-97651837
-MainWindow.xaml;
+10477578719
+195-589370206
+Calculator\Calculator.xaml;MainWindow.xaml;
 
-False
+True
 

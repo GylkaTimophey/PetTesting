@@ -1,0 +1,17 @@
+﻿<Window x:Class="PetTesting.Calculator.Calculator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PetTesting.Calculator"
+        mc:Ignorable="d"
+        Title="Calculator">
+    <Window.DataContext>
+        <local:CalculatorViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <TextBox x:Name="Number1" Text="{Binding Number1}" Height="20" Width="100" Margin="0,0,0,0"/>
+        <TextBox x:Name="Number2" Text="{Binding Number2}" Height="20" Width="100" Margin="100, 0,0,0"/>
+        <TextBlock x:Name="Number3" Text="{Binding Number3}" Height="20" Width="100" Margin="200, 0,0,0"/>
+    </Grid>
+</Window>

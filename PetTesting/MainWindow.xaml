@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:PetTesting"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <local:MainViewModel/>
+    </Window.DataContext>
     <Grid>
-
+        <Button x:Name="Calculator" Content="Open&#x0a;Calculator" Command="{Binding ShowCalculatorCommand}"/>
     </Grid>
 </Window>
